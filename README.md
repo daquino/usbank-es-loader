@@ -1,6 +1,6 @@
 # usbank-es-loader
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure script designed to load US Bank transactions in a CSV file into Elasticsearch.
 
 ## Usage
 
