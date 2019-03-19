@@ -5,7 +5,8 @@ can be considered business expenses.  This information is used when we file taxe
 The first part of this process is downloading transactions in a .csv format and loading that into Elasticsearch. The
 format for the data in the csv file looks like the following:
 
-| Date | Transaction | Name | Memo |  Amount |
+| Date | Transaction | Name | Memo | Amount |
+| ---- | ----------- | ---- | ---- | ------ |
 | 3/6/2018 | DEBIT | Kroger | 24445008067000429017102; 05411; | -31.7600 |
 
 The goal is the read the data from the .csv and insert the data into an Elasticsearch index into the following
