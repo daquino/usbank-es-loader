@@ -9,7 +9,7 @@ format for the data in the csv file looks like the following:
 | ---- | ----------- | ---- | ---- | ------ |
 | 3/6/2018 | DEBIT | Kroger | 24445008067000429017102; 05411; | -31.7600 |
 
-The goal is the read the data from the .csv and insert the data into an Elasticsearch index into the following
+The goal is to read the data from the .csv and insert the data into an Elasticsearch index into the following
 structure:
 
 ```
