@@ -22,5 +22,5 @@ structure:
 }
 ```
 
-Even though I load transactions of both types ('DEBIT' or 'CREDIT'), I typically ignore `CREDIT` transactions when
+Even though I load transactions of both types (`DEBIT` or `CREDIT`), I typically ignore `CREDIT` transactions when
 I explore the data in Elasticsearch.
